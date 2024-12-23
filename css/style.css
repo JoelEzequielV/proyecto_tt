@@ -110,8 +110,9 @@ body {
     padding-left: calc(0.5em* .5);
     margin-right: auto;
     margin-left: auto;
-    /* row-gap: 2em; */
+     row-gap: 2em; 
     column-gap: 0.8em;
+    min-width: 520px;
 }
 .grid-container {
     width: 79%;
