@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 let descriptiones = [];
     fetch('juegos.json')
     .then(response => {
@@ -30,7 +31,7 @@ let descriptiones = [];
       console.error('Error al cargar el archivo JSON:', error);
     });
 
-
+  });
 
 document.addEventListener('DOMContentLoaded', function () {
 
