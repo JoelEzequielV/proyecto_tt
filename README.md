@@ -10,7 +10,7 @@ Proyecto de talento tech curso en el que diseño una web nostálgica con temáti
     - Utilización de .json externo y traer datos mediante fetch.</br>
     - Botón para ver descripción.</br>
     - Botón para comprar (añadir al carrito.)</br>
-    - input range para seleccionar cantidad de productos por tipo del 1 al 10.</br>
+    - input number para seleccionar cantidad de productos por tipo del 1 al 10.</br>
     - Validación de datos si el producto ya está en carrito.</br>
     - Validación si el carrito está vacío (desaparecen elementos como: vaciar carrito etc.)</br>
     - Botón dinámico borrar ítem del carrito.</br>
