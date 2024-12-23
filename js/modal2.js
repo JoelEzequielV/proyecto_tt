@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+
 let descriptiones = [];
     fetch('juegos.json')
     .then(response => {
@@ -31,14 +31,14 @@ let descriptiones = [];
       console.error('Error al cargar el archivo JSON:', error);
     });
 
-  });
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
     function esperarElemento() {
       return new Promise((resolve) => {
         const intervalo = setInterval(() => {
-          const elemento = document.querySelector(`#id6`);
+          const elemento = document.querySelector(`#Modal6`);
           if (elemento) {
             clearInterval(intervalo); 
             resolve(elemento); 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     //esperamos a que existan todos los botones
     async function miFuncion() {
-      const elemento = await esperarElemento(`#id6`);
+      const elemento = await esperarElemento(`#Modal6`);
      // console.log("El elemento ya está disponible");
   
   
